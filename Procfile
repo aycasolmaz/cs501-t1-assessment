@@ -1,4 +1,4 @@
-web: gunicorn manage: __init__
+web: gunicorn main:app
 heroku ps:scale web=1
 
 
